@@ -12,3 +12,10 @@
 
 (defn get-primes [n]
   (filter prime? (range n)))
+
+(defn get-nth-triangular [n]
+  (reduce + (range 1 (inc n))))
+
+(defn get-divisors [n]
+  (filter #(= 0 (mod n %)) (range 1 (inc n))))
+

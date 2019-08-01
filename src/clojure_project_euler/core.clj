@@ -29,5 +29,10 @@
 (defn euler10 []
   (reduce + (Euler/get-primes 2000000)))
 
+(defn euler11 [])
+
+(defn euler12 []
+  (println (Euler/get-divisors 21)))
+
 (defn -main [& args]
-  (println (euler10)))
+  (println (euler12)))
